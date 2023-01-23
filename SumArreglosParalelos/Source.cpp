@@ -28,6 +28,8 @@ int main()
 	float a[N], b[N], c[N];
 	int i;
 
+	srand(time(NULL));
+
 	for (i = 0; i < N; i++) {
 		a[i] = rand() % 100 + 1;
 		b[i] = rand() % 100 + 1;
